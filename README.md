@@ -6,7 +6,7 @@ npm start
 
 FROM node:lts-buster
 
-#WORKDIR /bernal_pablo_site/
+WORKDIR /bernal_pablo_site/
 
 COPY public/ /bernal_pablo_site/public
 
