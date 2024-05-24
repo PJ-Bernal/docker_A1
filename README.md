@@ -2,8 +2,8 @@ npx create-react-app bernal_pablo_site
 cd assignment_11
 npm start
 
-FROM node:lts-buster
-WORKDIR /bernal_pablo_site/
+#FROM node:lts-buster
+#WORKDIR /bernal_pablo_site/
 COPY public/ /bernal_pablo_site/public
 COPY src/ /bernal_pablo_site/src
 COPY package.json /bernal_pablo_site/
